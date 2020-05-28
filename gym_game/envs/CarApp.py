@@ -95,11 +95,11 @@ class Game:
         height = Screen_height
         self.screen = pygame.display.set_mode((width, height))
         #Adding Map to our game
-        self.map_image = pygame.image.load('C:\\Users\\sagar.agrawal\\Downloads\\EndGame\\framework_tutorial-master\\map1.png').convert()
+        self.map_image = pygame.image.load('map.png').convert()
         self.map_rect = self.map_image.get_rect()
-        self.dest_image =pygame.image.load('C:\\Users\\sagar.agrawal\\Downloads\\EndGame\\framework_tutorial-master\\destination.jpg').convert()
+        self.dest_image =pygame.image.load('destination.jpg').convert()
         self.dest_image = pygame.transform.scale(self.dest_image,(20,40))
-        self.car_image_path = "C:\\Users\\sagar.agrawal\\Downloads\\EndGame\\framework_tutorial-master\\car1.png"
+        self.car_image_path = "car.png"
         self.car_image = pygame.image.load(self.car_image_path)
         self.car_image = pygame.transform.scale(self.car_image, (car_width, car_height))
         self.clock = pygame.time.Clock()
