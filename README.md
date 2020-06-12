@@ -28,9 +28,11 @@ __Step 2__: Add the following functions in Car game :
 
   * __reset()__ : This command will reset the environment. It returns an initial observation.
   
-  First Header  | Second Header
+  Action  | Second Header
   ------------- | -------------
-  Content Cell  | Content Cell
-  Content Cell  | Content Cell
+  Moving on road(Living Penalty)  | - 1.5
+  Moving on road and towards Destination | + 0.75
+  Moving on sand | -5 
+  Moving near boundary | -10
 
 
