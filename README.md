@@ -28,7 +28,7 @@ __Step 2__: Add the following functions in Car game :
          
          * Distance of car from the destination 
          
-         * Orientation (the angle between velocity vector and displacement vector in reference to cars position) 
+         * Orientation (the angle between velocity vector and displacement vector in reference to position of the car) 
   
   * __Reward__ : Amount of reward achieved by the previous action.
   
@@ -42,3 +42,5 @@ __Step 2__: Add the following functions in Car game :
   * __done__ : A boolean value stating whether it’s time to reset the environment again.
 
 * __reset()__ : This command will reset the environment. It returns an initial observation.
+
+__Step 3__ : Buid the Actor-Critic models:
