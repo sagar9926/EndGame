@@ -21,8 +21,8 @@ __Step 1__: Create a basic car game using pygame. The car moves at a pre initial
 __Step 2__: Add the following functions in Car game :
 
 * __Step()__ : This command will take an action at each step. The action is specified as its parameter. This function returns four parameters, namely observation, reward, done and info.
-      
-      * Observation :
+
+  * Observation :
 
 * __reset()__ : This command will reset the environment. It returns an initial observation.
 
