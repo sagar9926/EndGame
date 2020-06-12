@@ -23,8 +23,11 @@ __Step 2__: Add the following functions in Car game :
 * __Step()__ : This command will take an action at each step. The action is specified as its parameter. This function returns four parameters, namely state, reward, done.
 
   * __State__ : An environment-specific object representing your observation of the environment.This comprises of three variables:
+  
          * 28x28 pixels around the car
+         
          * Distance of car from the destination 
+         
          * Orientation (the angle between velocity vector and displacement vector in reference to cars position) 
   
   * __Reward__ : Amount of reward achieved by the previous action.
