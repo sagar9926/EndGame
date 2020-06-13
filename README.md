@@ -46,13 +46,14 @@ __Step 2__: Add the following functions in Car game :
 __Step 3__ : Buid the Actor-Critic models : Model takes input a 28x28 image patch , orientation and distance from destination. First part of model is __Encoder__. This extracts the features from the input 28x28 image patch and encodes them into latent vector of size 16. In second part of model The other two state parameters are concatenated with this latent vector and the passed through a series of fully conected layers.
 
 ### Single convolution Block :
+
 ![image](ConvolutionBlock.png)
 
 ### Network Architecture :
 
 ![image](Architecture.png)
 
-## Training TD3
+__Step 4__ Training TD3
 
 ### Step 1 : Initialisation
 
