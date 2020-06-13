@@ -11,6 +11,7 @@
 
 First I tried to create custom gym environment using pygame to train the model in colab but the exectuion time was very high thus created two files as follows :
 
+* gym_game : Failed attempt to create custom Car environment. Need to fix it 
 * AI.py : Contains the TD3 Implementation including Actor-Critic models and Replay buffer
 * Car_Train.py : Training the TDR for self driving car simulation
 * Car_Inference : Inference code
