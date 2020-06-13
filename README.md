@@ -53,7 +53,7 @@ __Step 3__ : Buid the Actor-Critic models : Model takes input a 28x28 image patc
 
 ![image](Architecture.png)
 
-__Step 4__ Training TD3
+## Final Step : Training TD3
 
 ### Step 1 : Initialisation
 
