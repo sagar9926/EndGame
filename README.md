@@ -31,9 +31,13 @@ __Step 2__: Add the following functions in Car game :
   
          * 28x28 pixels around the car
          
+         ![](Crop.png)
+         
          * Distance of car from the destination 
          
          * Orientation (the angle between velocity vector and displacement vector in reference to position of the car) 
+         
+         
   
   * __Reward__ : Amount of reward achieved by the previous action.
   
