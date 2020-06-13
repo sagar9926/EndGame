@@ -50,4 +50,6 @@ __Step 3__ : Buid the Actor-Critic models : Model takes input a 28x28 image patc
 
 ### Network Architecture :
 
+![image](Architecture.png)
+
 
