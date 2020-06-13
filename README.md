@@ -44,3 +44,6 @@ __Step 2__: Add the following functions in Car game :
 * __reset()__ : This command will reset the environment. It returns an initial observation.
 
 __Step 3__ : Buid the Actor-Critic models:
+
+
+![image](ConvolutionBlock.png)
