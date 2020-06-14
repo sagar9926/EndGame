@@ -42,7 +42,7 @@ __Step 2__: Add the following functions in Car game :
   Action                                 | Reward Amount
   -------------------------------------- | -------------
   Moving on road(Living Penalty)         | - 1.5
-  Moving on road and towards Destination | + 0.75
+  Moving on road and towards Destination | + 1.5
   Moving on sand                         | -5 
   Moving near boundary                   | -10
   
