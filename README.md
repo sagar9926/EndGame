@@ -98,7 +98,7 @@ We add Gaussian noise to this next action a`(technique of exploration which eith
 
 ### Step 7 :
 
-The two Critic Targets each take (s`, a`) as input and return two Q-values as output.
+The two Critic Targets each take (s', a') as input and return two Q-values as output.
 
 ### Step 8 :
 
